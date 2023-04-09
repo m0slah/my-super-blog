@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import cl from 'classnames';
 
-function index() {
+import styles from './index.module.scss';
+
+const ScreenEgg = ({
+    className,
+    type,
+    children
+}) => {
   return (
-    <div>index</div>
+    <div className={cl(className, styles.screenEgg, type === 'right' ? styles.screenEggRight : styles.screenEggLeft)}>
+        {children}
+    </div>
   )
 }
 
-export default index
+export default ScreenEgg;
