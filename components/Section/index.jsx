@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import cl from 'classnames';
 
-function index() {
+import styles from './index.module.scss';
+
+const Section = ({
+    children,
+    className
+}) => {
   return (
-    <div>index</div>
+    <section className={cl(className, styles.section)}>
+        {children}
+    </section>
   )
 }
 
-export default index
+export default Section;
