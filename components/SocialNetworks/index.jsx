@@ -8,22 +8,22 @@ import styles from './index.module.scss';
 const socialNetworks = [
   {
     id: 1,
-    href: 'https://github.com/liveldi',
+    href: 'https://github.com/m0slah',
     icon: AiFillGithub,
   },
   {
     id: 2,
-    href: 'https://www.youtube.com/channel/UCdw1R35g3uDj4LVt1-aS-hA',
+    href: 'https://www.youtube.com/@moslah3099',
     icon: AiFillYoutube,
   },
   {
     id: 3,
-    href: 'https://twitter.com/webelart',
+    href: 'https://twitter.com/m0slah',
     icon: AiFillTwitterCircle
   },
   {
     id: 4,
-    href: 'https://www.linkedin.com/in/elena-litvinova-574424216/',
+    href: 'https://www.linkedin.com/in/mo-slah-095a87232/',
     icon: AiFillLinkedin
   }
 ];
