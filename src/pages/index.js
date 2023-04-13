@@ -39,9 +39,14 @@ export default function Home({ initialPosts, total }) {
   };
 
   return (
-    <div style={{
-      marginBottom: '1rem',
-    }}>
+    <div
+      style={{
+        marginBottom: "1rem",
+      }}
+    >
+      <Head>
+        <title>My blog</title>
+      </Head>
       <Section>
         <Cover title="Mo<br />Slah" />
         <SocialNetworks />
@@ -51,6 +56,7 @@ export default function Home({ initialPosts, total }) {
         <Title>New Post</Title>
       </Section>
       <PostGrid>
+        {console.log(initialPosts)}
         {posts.map((post) => (
           <Post key={post._id} {...post} />
         ))}
