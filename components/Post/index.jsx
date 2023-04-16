@@ -16,11 +16,11 @@ const Post = ({
     slug
 }) => {
   return (
-    <Link
+    <a
       href={`/post/${encodeURIComponent(slug.current)}`}
       className={cl(className, styles.post)}
     >
-        <a className={styles.postLink}>
+        <div className={styles.postLink}>
           <Title
             type="small"
             className={styles.postTitle}
@@ -42,8 +42,8 @@ const Post = ({
               {description}
             </p>
           </div>
-        </a>
-    </Link>
+        </div>
+    </a>
   )
 }
 

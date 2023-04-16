@@ -13,9 +13,9 @@ const Article = ({
   return (
     <article className={cl(className, styles.article)}>
       <Link href={backUrl}>
-        <a className={styles.articleBack}>
+        <div className={styles.articleBack}>
           <AiOutlineArrowLeft />
-        </a>
+        </div>
       </Link>
       <div className={styles.articleContent}>
         {children}

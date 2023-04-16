@@ -2,12 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 5rem;
-
+    margin: 2rem 10rem;
 }
 
 @media only screen and (max-width: 1000px) {
     .postGrid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1rem;
     }
 }

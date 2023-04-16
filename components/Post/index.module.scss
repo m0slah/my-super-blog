@@ -1,11 +1,12 @@
 .post {
+    text-decoration: none;
     &Title {
         margin-bottom: 0.7em;
     }
 
     &Description {
         line-height: 1.6;
-    }
+        }
 
     &Content {
         display: grid;

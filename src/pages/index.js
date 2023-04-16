@@ -19,7 +19,7 @@ export default function Home({ initialPosts, total }) {
   const [posts, setPosts] = useState(initialPosts);
   const [loadedAmount, setLoadedAmount] = useState(LOAD_MORE_STEP);
   const [loading, setLoading] = useState(false);
-
+  console.log(initialPosts);
   const showLoadButton = total > loadedAmount;
 
   const getMorePosts = async () => {
@@ -56,7 +56,6 @@ export default function Home({ initialPosts, total }) {
         <Title>New Post</Title>
       </Section>
       <PostGrid>
-        {console.log(initialPosts)}
         {posts.map((post) => (
           <Post key={post._id} {...post} />
         ))}
