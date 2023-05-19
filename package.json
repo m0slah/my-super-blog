@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/block-content-to-react": "3.4.1",
+    "@sanity/block-content-to-react": "4.0.0",
     "@sanity/client": "3.5.0",
     "@sanity/image-url": "2.0.1",
     "classnames": "2.3.2",
