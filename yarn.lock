@@ -1637,7 +1637,7 @@ next-sanity-image@5.1.0:
   dependencies:
     "@sanity/image-url" "^1.0.2"
 
-next@^12.5.0:
+next@^13.4.3:
   version "13.4.4-canary.0"
   resolved "https://registry.yarnpkg.com/next/-/next-13.4.4-canary.0.tgz#9118d8300e5c8400a7dd6129d3b5a709b88300a2"
   integrity sha512-B5eXkpvJTlmMvygNkTEacxJY2b0PWw5T9TVln4LTdBNKyK8ZyrPhtNCiuwJtYdaoFAIakVg67ZMApssalwlN9g==
