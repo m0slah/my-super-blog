@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "eslint": "8.4.0",
-    "eslint-config-next": "12.4.0",
+    "eslint-config-next": "13.4.3",
     "sass": "^1.62.1"
   }
 }
